@@ -21,4 +21,4 @@ def login(client, username, password):
 
 def auth(token):
     """Build the Authorization header for a bearer token."""
-    return {"Authorization": f"Bearer {token}"}
+    return {"Authorization": "Bearer " + token}
